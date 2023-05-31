@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: #fff;
+    --black: #000;
+}
+.container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    /* border:  1px solid green; */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.navlinks a{
+    text-decoration: none;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    /* border: 1px solid blue; */
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.logo h2{
+    font-weight: 100;
+    padding-top: 5px;
+}
+.navCont{
+    border: 1px solid var(--black);
+    padding: 20px;
+}
+#modal{
+    border: 1px solid violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.modalHeader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.main{
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c8c8c8;
+}
+.photosCont{
+    
+    border: 1px solid lawngreen;
+    display: flex;
+    flex-direction: row;
+    background-color: #c8c8c8;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+}
+.redesSo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footerT{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.reactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    bottom: 90px;
+    left: 310px;
+}
+.reactions2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    top: 895px;
+    left: 310px;
+}
+.reactions3{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    top: 895px;
+    left: 726px;
+}
+.reactions4{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    top: 895px;
+    left: 1144px;
+}
+.reactions, .reactions2, .reactions3, .reactions4
+ img:hover{
+    cursor: pointer;
+}
